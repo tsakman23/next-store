@@ -8,7 +8,7 @@ export default function Home() {
 
     useEffect(() => {
         const fetchItems = async () => {
-            const res = await fetch('http://localhost:3000/api/items');
+            const res = await fetch('/api/items');
             if (!res.ok) {
                 throw new Error(`HTTP error! status: ${res.status}`);
             }
