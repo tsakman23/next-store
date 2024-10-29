@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "slug": "item-one",
+    "title": "Item One",
+    "description": "Description for Item One",
+    "price": 29.99
+  },
+  {
+    "id": 2,
+    "slug": "item-two",
+    "title": "Item Two",
+    "description": "Description for Item Two",
+    "price": 39.99
+  },
+  {
+    "id": 3,
+    "slug": "item-three",
+    "title": "Item Three",
+    "description": "Description for Item Three",
+    "price": 49.99
+  }
+]
