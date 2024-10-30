@@ -19,5 +19,19 @@
     "title": "Item Three",
     "description": "Description for Item Three",
     "price": 49.99
+  },
+  {
+    "id": 4,
+    "slug": "item-four",
+    "title": "Item Four",
+    "description": "Description for Item Four",
+    "price": 59.99
+  },
+  {
+    "id": 5,
+    "slug": "item-five",
+    "title": "Item Five",
+    "description": "Description for Item Five",
+    "price": 69.99
   }
 ]
