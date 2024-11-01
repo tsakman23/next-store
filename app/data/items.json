@@ -1,37 +1,152 @@
 [
   {
     "id": 1,
-    "slug": "item-one",
-    "title": "Item One",
-    "description": "Description for Item One",
-    "price": 29.99
+    "slug": "vanilla-dream",
+    "name": "Vanilla Dream",
+    "flavor": "Vanilla",
+    "description": "A classic vanilla ice cream made with rich vanilla beans.",
+    "details": "Our Vanilla Delight ice cream is crafted with Madagascar vanilla beans for a rich, authentic flavor. Perfect on its own or paired with other desserts.",
+    "price": 3.99,
+    "imageUrl": "/images/vanilla-dream.webp"
   },
   {
     "id": 2,
-    "slug": "item-two",
-    "title": "Item Two",
-    "description": "Description for Item Two",
-    "price": 39.99
+    "slug": "choco-fudge",
+    "name": "Choco Fudge",
+    "flavor": "Chocolate",
+    "description": "Decadent chocolate ice cream with fudge swirls.",
+    "details": "Indulge in our decadent Choco Fudge ice cream, crafted from premium dark chocolate and blended with a smooth fudge swirl. Each scoop delivers an intense chocolate flavor balanced by creamy fudge ribbons, making it the perfect treat for chocolate lovers. Enjoy it on its own or top it with extra chocolate shavings for an even richer experience.",
+    "price": 4.49,
+    "imageUrl": "/images/choco-fudge.jpeg"
   },
   {
     "id": 3,
-    "slug": "item-three",
-    "title": "Item Three",
-    "description": "Description for Item Three",
-    "price": 49.99
+    "slug": "strawberry-sunset",
+    "name": "Strawberry Sunset",
+    "flavor": "Strawberry",
+    "description": "Smooth strawberry ice cream with real strawberry pieces.",
+    "details": "Strawberry Sunset offers a refreshing mix of ripe, juicy strawberries in every bite. This fruity delight is perfect for those seeking a sweet, refreshing treat with natural strawberry flavor.",
+    "price": 4.29,
+    "imageUrl": "/images/strawberry-sunset.jpg"
   },
   {
     "id": 4,
-    "slug": "item-four",
-    "title": "Item Four",
-    "description": "Description for Item Four",
-    "price": 59.99
+    "slug": "minty-fresh",
+    "name": "Minty Fresh",
+    "flavor": "Mint Chocolate Chip",
+    "description": "Cool mint ice cream with dark chocolate chips.",
+    "details": "Minty Fresh combines a cool, refreshing mint base with bittersweet chocolate chips. The mint is soothing and light, while the chocolate adds a satisfying crunch.",
+    "price": 4.19,
+    "imageUrl": "/images/minty-fresh.jpg"
   },
   {
     "id": 5,
-    "slug": "item-five",
-    "title": "Item Five",
-    "description": "Description for Item Five",
-    "price": 69.99
+    "slug": "caramel-swirl",
+    "name": "Caramel Swirl",
+    "flavor": "Caramel",
+    "description": "Rich caramel ice cream with crunchy caramel bits.",
+    "details": "Creamy caramel ribbons flow through every scoop of our Caramel Swirl, creating a rich, buttery flavor that melts in your mouth. Ideal for caramel lovers looking for a luxurious treat.",
+    "price": 4.59,
+    "imageUrl": "/images/caramel-swirl.jpeg"
+  },
+  {
+    "id": 6,
+    "slug": "cookie-dough-delight",
+    "name": "Cookie Dough Delight",
+    "flavor": "Cookie Dough",
+    "description": "Creamy ice cream packed with cookie dough pieces.",
+    "details": "Cookie Dough Delight features chunks of chewy cookie dough and rich chocolate chips, blended into creamy vanilla. It’s the ultimate treat for cookie lovers and ice cream fans alike.",
+    "price": 4.69,
+    "imageUrl": "/images/cookie-dough-delight.jpeg"
+  },
+  {
+    "id": 7,
+    "slug": "pistachio-paradise",
+    "name": "Pistachio Paradise",
+    "flavor": "Pistachio",
+    "description": "Creamy pistachio ice cream with roasted pistachio chunks.",
+    "details": "Pistachio Paradise is a nutty and rich delight with pieces of real pistachios in every bite. The slightly salty, earthy flavor is balanced with a smooth, creamy base.",
+    "price": 4.89,
+    "imageUrl": "/images/pistachio-paradise.avif"
+  },
+  {
+    "id": 8,
+    "slug": "rocky-road",
+    "name": "Rocky Road",
+    "flavor": "Chocolate, Marshmallow, Almond",
+    "description": "Chocolate ice cream with marshmallows and almonds.",
+    "details": "Rocky Road combines creamy chocolate ice cream with marshmallow swirls and crunchy almond pieces. It’s a perfect mix of textures and flavors for a truly indulgent experience.",
+    "price": 4.79,
+    "imageUrl": "/images/rocky-road.jpeg"
+  },
+  {
+    "id": 9,
+    "slug": "banana-bliss",
+    "name": "Banana Bliss",
+    "flavor": "Banana",
+    "description": "Creamy banana ice cream with a hint of vanilla.",
+    "details": "Inspired by the classic dessert, Banana Bliss combines creamy banana ice cream with a hint of vanilla, creating a smooth, fruity treat reminiscent of a fresh banana split.",
+    "price": 4.29,
+    "imageUrl": "/images/banana-bliss.jpg"
+  },
+  {
+    "id": 10,
+    "slug": "salted-caramel-swirl",
+    "name": "Salted Caramel Swirl",
+    "flavor": "Salted Caramel",
+    "description": "Smooth caramel ice cream with a salted caramel swirl.",
+    "details": "Salted Caramel Swirl brings together sweet caramel with a hint of salt, creating a balanced and luxurious flavor. The caramel swirl adds a buttery richness, making every spoonful a treat.",
+    "price": 4.59,
+    "imageUrl": "/images/salted-caramel-swirl.jpg"
+  },
+  {
+    "id": 11,
+    "slug": "coffee-crave",
+    "name": "Coffee Crave",
+    "flavor": "Coffee",
+    "description": "Bold coffee ice cream for coffee lovers. Also has caffeine.",
+    "details": "Wake up your taste buds with Coffee Crave, a bold coffee-flavored ice cream crafted with real coffee. It’s perfect for coffee lovers and has a hint of caffeine for a slight pick-me-up.",
+    "price": 4.39,
+    "imageUrl": "/images/coffee-crave.jpeg"
+  },
+  {
+    "id": 12,
+    "slug": "berry-blast",
+    "name": "Berry Blast",
+    "flavor": "Mixed Berry",
+    "description": "Mixed berry ice cream with chunks of real berries.",
+    "details": "Berry Blast offers a vibrant mix of berries, including strawberries, blueberries, and raspberries, in every scoop. The natural tartness of the berries is balanced by the creaminess, creating a fresh and fruity taste.",
+    "price": 4.49,
+    "imageUrl": "/images/berry-blast.jpeg"
+  },
+  {
+    "id": 13,
+    "slug": "mango-madness",
+    "name": "Mango Madness",
+    "flavor": "Mango",
+    "description": "Tropical mango ice cream bursting with flavor.",
+    "details": "Escape to the tropics with Mango Madness, a fruity and refreshing treat made from ripe, juicy mangoes. It’s a vibrant and sweet choice that’s perfect for summer.",
+    "price": 4.69,
+    "imageUrl": "/images/mango-madness.jpg"
+  },
+  {
+    "id": 14,
+    "slug": "nutty-butter",
+    "name": "Nutty Butter",
+    "flavor": "Peanut Butter",
+    "description": "Creamy peanut butter ice cream with peanut chunks.",
+    "details": "Nutty Butter combines creamy peanut butter ice cream with crunchy peanut pieces. The nutty, rich flavor is a must-have for peanut lovers, delivering a satisfying texture in every bite.",
+    "price": 4.79,
+    "imageUrl": "/images/nutty-butter.jpg"
+  },
+  {
+    "id": 15,
+    "slug": "birthday-bash",
+    "name": "Birthday Bash",
+    "flavor": "Birthday Cake",
+    "description": "Sweet birthday cake ice cream with sprinkles.",
+    "details": "Birthday Bash is a festive blend of sweet birthday cake-flavored ice cream with colorful sprinkles throughout. It’s perfect for celebrations or simply indulging in a treat that tastes like a party.",
+    "price": 4.89,
+    "imageUrl": "/images/birthday-bash.jpg"
   }
 ]
