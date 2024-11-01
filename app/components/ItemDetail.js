@@ -9,6 +9,8 @@ export default function ItemDetail({ item }) {
     }
 
     return (
+    <div className="container mx-auto p-6">
+        <h1 className="text-2xl font-bold mb-4">{item.name}</h1>
         <div className={`${styles.container} mx-auto p-6 shadow-lg rounded-lg max-w-md bg-white`}>
             <div className="flex flex-col md:flex-row md:items-start">
                 {/* Image on the left */}
@@ -34,5 +36,6 @@ export default function ItemDetail({ item }) {
                 </div>
             </div>
         </div>
+    </div>
     );
 }
