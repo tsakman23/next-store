@@ -5,6 +5,9 @@
     padding: 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column; /* Ensure items stack vertically */
 }
 
 .card:hover {
