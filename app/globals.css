@@ -2,8 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+  font-weight: 400; 
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Dancing Script', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+  text-align: center;
+  font-size: 3rem !important;
+  font-weight: 400 !important;
+}
+
 :root {
-  --background: #ffffff;
+  --background: #f19dcd;
   --foreground: #171717;
 }
 

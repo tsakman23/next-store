@@ -1,0 +1,10 @@
+.container {
+    max-width: 100%;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+.title {
+    font-family: 'Dancing Script', sans-serif;
+    text-align: center;
+}
