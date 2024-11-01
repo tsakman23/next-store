@@ -1,6 +1,5 @@
 .container {
     min-width: 1000px;
-    
     height: 100%;
     border: 1px solid #e5e7eb;
     border-radius: 0.5rem;
@@ -35,9 +34,35 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .notFound {
     text-align: center;
     font-weight: bold;
     color: #e53e3e;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .container {
+        min-width: auto; /* Allow container to shrink on smaller screens */
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .imageWrapper {
+        min-width: 100%; /* Allow image to take full width */
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 2rem; /* Adjust title size */
+        text-align: center; /* Center align title */
+    }
+
+    .price {
+        font-size: 1rem; /* Adjust price size */
+        text-align: center; /* Center align price */
+    }
+
+    .image {
+        height: auto; /* Allow height to auto adjust */
+    }
 }
